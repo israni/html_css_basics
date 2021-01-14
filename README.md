@@ -8,4 +8,5 @@
 
 ## External resources
 
-- .ico free icon downloaded from [here](https://icon-icons.com/).
+- .ico free icon downloaded from [icon-icons](https://icon-icons.com/).
+- Free image downloaded from [Pexels](https://www.pexels.com/)
