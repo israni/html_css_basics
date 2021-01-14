@@ -46,16 +46,35 @@
     <!-- Only fields with a name tag get submitted on clicking the submit button -->
     <form action="">
       <label for="user">Username</label>
-      <input maxlength="10" name="user" type="text" id="user" />
+      <input
+        placeholder="Username"
+        required
+        maxlength="10"
+        name="user"
+        type="text"
+        id="user"
+      />
       <label for="email">Email</label>
-      <input name="email" type="email" id="email" />
-      <select name="subjects" id="subject">
+      <input
+        placeholder="Email"
+        required
+        name="email"
+        type="email"
+        id="email"
+      />
+      <select name="subject" id="subject">
         <option selected value="maths"></option>
         <option value="english"></option>
         <option value="hindi"></option>
         <option value="science"></option>
       </select>
-      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <textarea
+        placeholder="Please enter your message here"
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
       <button type="submit"></button>
     </form>
 
