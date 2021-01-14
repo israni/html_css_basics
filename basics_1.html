@@ -42,12 +42,20 @@
     <h1>Form</h1>
     <!-- Using for helps as by clicking on label, it automatically takes us to
     the input box -->
-    <form action="form_submitted.html">
+
+    <!-- Only fields with a name tag get submitted on clicking the submit button -->
+    <form action="">
       <label for="user">Username</label>
-      <input type="text" id="user" />
+      <input name="user" type="text" id="user" />
       <label for="email">Email</label>
-      <input type="email" id="email" />
+      <input name="email" type="email" id="email" />
       <button type="submit"></button>
+      <select name="subjects" id="subject">
+        <option selected value="maths"></option>
+        <option value="english"></option>
+        <option value="hindi"></option>
+        <option value="science"></option>
+      </select>
     </form>
 
     <a href="form_submitted.html"> Link for form submitted page</a>
